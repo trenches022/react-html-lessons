@@ -1,54 +1,78 @@
-# React + TypeScript + Vite
+# 🌌 HTML Mastery: Learn HTML Through Interactive Lessons
+A React.js-based educational platform designed to teach HTML through interactive lessons and coding challenges. Users progress through a structured roadmap, completing tasks in a sleek, dark-themed interface with real-time feedback.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The app features a modern purple design, a dual-editor system powered by CodeMirror, and a progression system that unlocks lessons as you learn.
 
-Currently, two official plugins are available:
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#  Key Features
 
-## Expanding the ESLint configuration
+🎯 Interactive Lessons – Learn HTML concepts with hands-on coding tasks.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+⚡ Real-Time Feedback – Test your solutions instantly and see the results.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+📈 Progressive Unlocking – Complete lessons sequentially to unlock the next challenge.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🗂 State Management – Powered by Zustand for tracking lesson progress.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📝 Dual Code Editors – Use CodeMirror for both examples and solutions with syntax highlighting.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+💾 Persistent Progress – Saves your completed lessons locally via localStorage.
+
+🎨 Dark Purple Theme – A visually appealing UI with smooth transitions and hover effects.
+
+🧭 HTML Roadmap – A visual timeline guides you through the learning journey.
+
+# 🛠 Technologies Used:
+
+<a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="23" height="23" alt="React" /></a> React.js – Frontend framework
+
+<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="23" height="23" alt="TypeScript" /></a> TypeScript – Type-safe JavaScript
+
+<a href="https://vitejs.dev/" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="23" height="23" alt="Vite" /></a> Vite – Fast development and build tool
+
+<a href="https://docs.pmnd.rs/zustand/getting-started/introduction" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="23" height="23" alt="Zustand" /></a> Zustand – Lightweight state management
+
+<a href="https://codemirror.net/" target="_blank"><img src="https://codemirror.net/doc/logo.svg" width="23" height="23" alt="CodeMirror" /></a> CodeMirror – Customizable code editor
+
+<a href="https://ant.design/" target="_blank"><img src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" width="23" height="23" alt="Ant Design" /></a> Ant Design – UI component library
+
+<a href="https://reactrouter.com/" target="_blank"><img src="https://reactrouter.com/favicon.ico" width="23" height="23" alt="React Router" /></a> React Router – Navigation and routing
+
+<a href="https://react-vertical-timeline-component.netlify.app/" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="23" height="23" alt="React Vertical Timeline" /></a> React Vertical Timeline – Roadmap visualization
+
+<a href="https://react-icons.github.io/react-icons/" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="23" height="23" alt="React Icons" /></a> React Icons – Icon library for UI elements
+
+# React Hooks Used
+
+🌀 useState – Manages local component states (e.g., user code input).
+
+🔄 useEffect – Not used directly here but available for future extensions.
+
+🧭 useNavigate – Handles navigation between lessons.
+
+🗂 useParams – Retrieves lesson IDs from the URL.
+
+# How It Works:
+
+* Explore the Roadmap – Start with the visual HTML roadmap on the homepage.
+* Select a Lesson – Click an unlocked lesson card to begin.
+* Learn and Code – Read the theory, experiment with the example editor, and solve the task in the solution editor.
+* Check Your Solution – Submit your code and get instant feedback. Correct answers unlock the next lesson and auto-redirect you!
+* Track Progress – Completed lessons are marked, and progress is saved locally.
+
+# 🎨 UI Preview
+
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons.png)
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons1.png)
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons2.png)
+
+# Future Plans
+
+🏆 Achievements System – Unlock badges for milestones (e.g., "HTML Beginner", "Form Master").
+
+📖 More Lessons – Expand to CSS, JavaScript, and beyond.
+
+📊 Progress Dashboard – Visualize completion stats.
+
+⚙️ Solution Flexibility – Improve checking logic to accept variations in correct answers.
