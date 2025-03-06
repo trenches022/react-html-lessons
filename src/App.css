@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --dark-purple: #2a1b3d; 
+  --light-purple: #44318d; 
+  --cream-white: #f5f1e9; 
+  --hover-purple: #5e4b9e; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-purple);
+  color: var(--cream-white);
+  font-family: 'Nunito';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cream-white);
+}
+
+.ant-card {
+  background-color: var(--light-purple);
+  color: var(--cream-white);
+  border: none;
+}
+
+.ant-card-head {
+  color: var(--cream-white) !important;
+  border-bottom: 1px solid var(--hover-purple);
+}
+
+.ant-card:hover {
+  background-color: var(--hover-purple);
+  transition: background-color 0.3s ease;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 20px;
+}
