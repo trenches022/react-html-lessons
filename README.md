@@ -3,7 +3,7 @@ A React.js-based educational platform designed to teach HTML through interactive
 
 The app features a modern purple design, a dual-editor system powered by CodeMirror, and a progression system that unlocks lessons as you learn.
 
-![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons.png)
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/src/assets/html-lessons.png)
 
 #  Key Features
 
@@ -63,9 +63,9 @@ The app features a modern purple design, a dual-editor system powered by CodeMir
 
 # 🎨 UI Preview
 
-![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons.png)
-![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons1.png)
-![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/html-lessons2.png)
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/src/assets/html-lessons.png)
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/src/assets/html-lessons1.png)
+![Html Lessons Screenshot](https://raw.githubusercontent.com/trenches022/react-html-lessons/main/src/assets/html-lessons2.png)
 
 # Future Plans
 
